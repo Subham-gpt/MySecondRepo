@@ -20,7 +20,7 @@ int main()
     // Create HUD(Heads Up Display)
     Text hud;
     Font font;
-    font.loadFromFile("font/DS-DIGI.TTF");
+    font.loadFromFile("DS-DIGI.TTF");
     hud.setFont(font);
     hud.setCharacterSize(75);
     hud.setFillColor(Color::White);
